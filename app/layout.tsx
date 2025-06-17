@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "veek",
-  description: "veek",
+  title: "Proteome",
+  description: "Proteome",
 };
 
 export default function RootLayout({
