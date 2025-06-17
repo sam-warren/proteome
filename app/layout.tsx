@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Proteome",
-  description: "Proteome",
+  description: "Your health, your way",
 };
 
 export default function RootLayout({

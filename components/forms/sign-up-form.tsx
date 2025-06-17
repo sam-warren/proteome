@@ -45,7 +45,7 @@ export function SignUpForm({
         email,
         password,
         options: {
-          emailRedirectTo: `${window.location.origin}/protected`,
+          emailRedirectTo: `${window.location.origin}/dashboard`,
         },
       });
       if (error) throw error;
@@ -67,7 +67,7 @@ export function SignUpForm({
   //     const { error } = await supabase.auth.signInWithOAuth({
   //       provider: "github",
   //       options: {
-  //         redirectTo: `${window.location.origin}/auth/oauth?next=/protected`,
+  //         redirectTo: `${window.location.origin}/auth/oauth?next=/dashboard`,
   //       },
   //     });
 
